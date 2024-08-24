@@ -1,0 +1,188 @@
+header {
+  background-color: #88bfd1;
+  height: 160px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 20px;
+}
+
+nav ul li a:hover {
+  font-size: 22px;
+  text-shadow: 2px 2px #177493;
+}
+
+header img {
+  max-block-size: 100%;
+  float: left;
+  margin-left: 20px;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin-top: 60px;
+  margin-right: 40px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+nav ul li .select {
+  color: blue;
+}
+
+.sectiune-text {
+  width: 100%;
+  padding: 50px 0px;
+}
+
+.sectiune-text h2 {
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-family: Arial;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  word-spacing: 7px;
+  text-decoration: underline;
+  text-shadow: 2px 2px #008000;
+}
+
+.sectiune-text p {
+  font-size: 20px;
+  font-family: Arial;
+  text-indent: 40px;
+}
+
+.sectiune-text-mobil {
+  display: none;
+}
+
+.articole {
+  width: 100%;
+  background-color: #dcddcd;
+  padding: 30px 0px;
+  overflow: hidden;
+}
+
+.imgart {
+  width: 100%;
+  height: 125px;
+  background-color: blue;
+}
+
+.articole article {
+  width: 23%;
+  background-color: red;
+  float: left;
+  margin: 0px 1%;
+}
+
+.articole article h2 {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 15px 0px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.articole article p {
+  text-indent: 15px;
+
+  font-size: 15px;
+  font-family: Arial;
+  padding: 0px 10px 10px 10px;
+  color: white;
+}
+
+.tabel {
+  width: 100%;
+  background-color: #d7d1ca;
+  padding: 60px 0px;
+}
+.tabel table {
+  width: 100%;
+  background-color: grey;
+  border-collapse: collapse;
+}
+
+.tabel table th {
+  font-size: 20px;
+  text-align: left;
+}
+
+.tabel table,
+th,
+td {
+  border: solid 3px black;
+  color: white;
+  padding: 5px;
+}
+
+.contact {
+  width: 100%;
+  background-color: #8ccbe0;
+  padding: 50px 0;
+}
+
+.contact label {
+  font-size: 25px;
+  font-size: Arial;
+  margin: 20px 5px;
+}
+
+.contact input {
+  width: 25%;
+  margin-bottom: 10px;
+  text-indent: 7px;
+  border: 2px solid blue;
+  padding: 3px;
+}
+
+.radioform {
+  width: 2% !important;
+}
+
+.contact textarea {
+  width: 40%;
+  height: 120px;
+  border: 1 solid blue;
+  resize: none;
+}
+
+.contact button {
+  width: 100px;
+  height: 30px;
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  border: 1px solid blue;
+}
+
+footer {
+  width: 100%;
+  background-color: #222;
+  padding: 60px 0;
+}
+
+footer p {
+  text-align: center;
+  font-size: 25px;
+  text-decoration: underline;
+  color: white;
+}
